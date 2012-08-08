@@ -246,7 +246,6 @@
 			isa = PBXProject;
 			attributes = {
 				LastUpgradeCheck = 0440;
-				ORGANIZATIONNAME = "Alexander Freas";
 			};
 			buildConfigurationList = 19C7834015CF060300E8831A /* Build configuration list for PBXProject "FooBar" */;
 			compatibilityVersion = "Xcode 3.2";
