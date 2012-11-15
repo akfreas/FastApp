@@ -62,8 +62,8 @@
 		19C7834E15CF060300E8831A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
 		19F597F315CF4C45003E7CA0 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = Classes/AppDelegate.h; sourceTree = SOURCE_ROOT; };
 		19F597F415CF4C45003E7CA0 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = Classes/AppDelegate.m; sourceTree = SOURCE_ROOT; };
-		19F597FD15CF4C68003E7CA0 /* ${PRODUCT_NAME}-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "FooBar-Info.plist"; path = "Support/FooBar-Info.plist"; sourceTree = "<group>"; };
-		19F597FE15CF4C68003E7CA0 /* ${PRODUCT_NAME}-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "FooBar-Prefix.pch"; path = "Support/FooBar-Prefix.pch"; sourceTree = "<group>"; };
+		19F597FD15CF4C68003E7CA0 /* FooBar-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "FooBar-Info.plist"; path = "Support/FooBar-Info.plist"; sourceTree = "<group>"; };
+		19F597FE15CF4C68003E7CA0 /* FooBar-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "FooBar-Prefix.pch"; path = "Support/FooBar-Prefix.pch"; sourceTree = "<group>"; };
 		19F5981E15CF4E4E003E7CA0 /* UnitTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UnitTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		19F5982515CF4E4E003E7CA0 /* UnitTest-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "UnitTest-Info.plist"; sourceTree = "<group>"; };
 		19F5982715CF4E4E003E7CA0 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
@@ -104,11 +104,18 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		197FA3B21654B70700FFBA39 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Resources;
+			sourceTree = SOURCE_ROOT;
+		};
 		19C7833B15CF060300E8831A = {
 			isa = PBXGroup;
 			children = (
 				19C7835015CF060300E8831A /* Classes */,
-				19F597F015CF4B69003E7CA0 /* Resources */,
+				197FA3B21654B70700FFBA39 /* Resources */,
 				19F597F215CF4B77003E7CA0 /* Support */,
 				19F5980015CF4C6F003E7CA0 /* Dependencies */,
 				19F5982315CF4E4E003E7CA0 /* UnitTest */,
@@ -147,18 +154,11 @@
 			path = "${PRODUCT_NAME}";
 			sourceTree = "<group>";
 		};
-		19F597F015CF4B69003E7CA0 /* Resources */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			name = Resources;
-			sourceTree = "<group>";
-		};
 		19F597F215CF4B77003E7CA0 /* Support */ = {
 			isa = PBXGroup;
 			children = (
-				19F597FD15CF4C68003E7CA0 /* ${PRODUCT_NAME}-Info.plist */,
-				19F597FE15CF4C68003E7CA0 /* ${PRODUCT_NAME}-Prefix.pch */,
+				19F597FD15CF4C68003E7CA0 /* FooBar-Info.plist */,
+				19F597FE15CF4C68003E7CA0 /* FooBar-Prefix.pch */,
 			);
 			name = Support;
 			sourceTree = "<group>";
