@@ -10,3 +10,4 @@ build/*
 !default.perspectivev3
 profile
 *.moved-aside
+app_info.json
